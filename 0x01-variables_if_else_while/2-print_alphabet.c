@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-	char ch;
-	putchar("Lowercase characters : \n");
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar("%c ", ch);
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
 	return 0;
 }
-
