@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <main.h>
 /**
- * main - write a program that prints _putchar, followed by a new line
+ * main - writes a program that prints _putcar, followed by a new line
  *
- * return: Always 0 (success)
+ * return: always 0 (success)
  */
 int main(void)
 {
@@ -13,3 +13,4 @@ int main(void)
 
 	return (0);
 }
+		
