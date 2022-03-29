@@ -9,14 +9,15 @@ void print_chessboard(char (*a)[8])
 {
 	unsigned int i, m = 0;
 
-	for (i = 0; i < 64; i++)
+	while (m < 8)
 	{
-		if (i % 8 == 0 && i != 0)
+		i = 0;
+		while (i < 8)
 		{
-			m = i;
-			_putchar('\n');
+			_putchar(a[m][i]);
+			i++
 		}
-		_putchar(a[i / 8][i - m]);
+		_putchar('\n');
+		m++;
 	}
-	_putchar('\n');
 }
