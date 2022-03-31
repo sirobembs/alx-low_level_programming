@@ -6,8 +6,9 @@
  * @n: integer or given number
  * Return: always 0 (succes).
  */
-int factorial(int n);
+int factorial(int n)
 {
+
 	if (n < 0)
 	{
 		return 0;
