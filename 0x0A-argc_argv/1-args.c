@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - porgram that return the number of argv 
+ * main - porgram that return the number of argv
  * passed into it.
  *
  * @argc:no of argv passed into program
