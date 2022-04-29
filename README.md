@@ -1,1 +1,1 @@
-Introduction to the C programming language
+task answers to C-structiures, typedef
