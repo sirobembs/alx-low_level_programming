@@ -37,7 +37,7 @@ int jump_search(int *array, size_t size, int value)
 	for ( prev <= index & prev < (int)size; prev++)
 	{
 		printf("Value checked array[%d] = [%d]\n", prev, array[prev]);
-		if (array[prev] = value)
+		if (array[prev] == value)
 			return (prev);
 	}
 
